@@ -5,6 +5,7 @@
 // This program can find the factorial of a number using a while loop
 
 #include <iostream>
+using namespace std;
 
 int main() {
     // This function can find the factorial of a number using a while loop
@@ -15,9 +16,9 @@ int main() {
     int counter = 0;
 
     // Input
-    std::cout << "Enter a positive integer here:" << std::endl;
-    std::cin >> positiveInteger;
-    std::cout << "" << std::endl;
+    cout << "Enter a positive integer here:" << std::endl;
+    cin >> positiveInteger;
+    cout << "" << std::endl;
 
     // Process
     do {
@@ -26,6 +27,6 @@ int main() {
     } while (positiveInteger > counter);
 
     // Output
-    std::cout << "The factorial of " << positiveInteger << " is " << \
-        factorial << std::endl;
+    cout << "The factorial of " << positiveInteger << " is " << \
+        factorial << endl;
 }
